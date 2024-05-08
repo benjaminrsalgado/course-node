@@ -9,5 +9,11 @@ let infoCurso ={
     "es publico": true
 
 }
+
+//Objeto JS -> Cadena de caracteres JSON 
 let infoCursoJSON = JSON.stringify(infoCurso);
 console.log(infoCursoJSON);
+
+// Cadena de caracteres JSON -> Objeto JS 
+let infoCursoObjeto = JSON.parse(infoCursoJSON);
+console.log(infoCursoObjeto)
