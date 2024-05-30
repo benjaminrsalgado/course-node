@@ -35,4 +35,4 @@ async function realizarPedido(producto){
     }
 }
 
-realizarPedido('lapiz')
+realizarPedido('taza')
