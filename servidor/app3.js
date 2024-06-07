@@ -2,7 +2,7 @@ const http = require ('http')
 
 //Creamos el servidor con ese modulo 
 const servidor = http.createServer((req, res)=>{
-    console.log('===> req(solicitud)')
+    console.log('===> req(solicitud)') //Aqui se muestra un mensaje descriptivo 
     // req.url es una propiedad de req. Aquí estás imprimiendo la URL de la solicitud que se ha recibido
     console.log(req.url)
     //re.method es una propiedad de req
