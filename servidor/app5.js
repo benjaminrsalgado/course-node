@@ -4,7 +4,8 @@ const http = require ('http')
 const servidor = http.createServer((req, res)=>{
     console.log('===> res (respuesta)') 
 
-    console.log(res.statusCode) // 200 Ok
+    res.setHeader('content-type', 'application/json')
+    console.log(res.getHeaders())
     res.end('Hola Mundo')
 });
 
